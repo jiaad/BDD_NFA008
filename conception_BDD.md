@@ -2,10 +2,12 @@
 
 > l'application et la base de données passent par SGBD
 
+```
 0 - Analyse et spécification des besoins
 1 - Modelisation conceptuelle des données
 2 - modélisation logique des données
 3 - modélisation physiques des données
+```
 
 # MODELE ENTITE / ASSOCIATION (E/A)
 
@@ -46,3 +48,17 @@
 ### une clé primaire peut etre une clé candidate
 
 ### a clé primaire d’une entité faible se construit par concaténation de l’identifiant de l’entité faible et de l’entité régulière dont dépend l’entité faible.
+
+# REGLES DE TRANSFORMATION D'UNE ASSOCIATION BINAIRE (X-Y) - (1 - 1)
+
+> eintité 1 est le pere
+>
+> enitité 2 est le fils
+>
+> du coup, le fils a un pere
+>
+> une ternaire avec 1-1 avec deux cotés == defaut de conception
+
+# REGLES DE TRANSFORMATION D'UNE ASSOCIATION BINAIRE (X-Y) - (0 - 1)
+
+- a voir les regles de transformation ::: ultra important
